@@ -13,7 +13,7 @@ app.get(`${fileRoute}/:file`, async (req, res) => {
   try {
     const path = `${config.fileServer.folder + '/' || ''}${req.params.file}`;
     fs.readFileSync(path, 'utf8');
-    res.sendFile(path);
+    res.sendFile(path, {root: __dirname});
   } catch (err) {
     res.send('file not found').status(404)
     console.error(err.message)
