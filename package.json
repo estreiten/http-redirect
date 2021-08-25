@@ -1,0 +1,13 @@
+{
+  "name": "http-redirect",
+  "version": "1.0.0",
+  "description": "Webserver that serves files and makes redirections",
+  "main": "server.js",
+  "author": "Ezequiel Streitenberger <ezequiel@estreiten.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estreiten/http-redirect.git"
+  },
+  "homepage": "https://github.com/estreiten/http-redirect",
+  "license": "see license in LICENSE file located at the root"
+}
