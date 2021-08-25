@@ -9,5 +9,8 @@
     "url": "git+https://github.com/estreiten/http-redirect.git"
   },
   "homepage": "https://github.com/estreiten/http-redirect",
-  "license": "see license in LICENSE file located at the root"
+  "license": "see license in LICENSE file located at the root",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
