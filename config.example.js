@@ -3,6 +3,6 @@ module.exports = {
   redirect: 'https://mywebsite.com',
   fileServer: {
     route: '/files',
-    folder: '/public'
+    folder: 'public'
   }
 }
